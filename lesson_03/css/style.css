@@ -1,1 +1,26 @@
 @import url(reset.css);
+
+/* Тип №0. Селектор зірочка * */
+* {
+  color: darkslategrey;
+}
+
+/* Тип №1. Селектор тегу */
+h2 {
+  color: brown;
+}
+
+/* Тип №2. Селектор класу */
+.list__item {
+  color: blue;
+}
+
+/* Тип №3. Селектор ID */
+#main-title {
+  color: red;
+}
+
+/* Тип №4. Селектор атрибутів */
+[class*="god"] {
+  color: darkred;
+}
