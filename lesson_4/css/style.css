@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Poppins:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Poppins:wght@700&display=swap");
+
+@import url(font.css);
+
+@import url(reset.css);
+
+body {
+  font-family: "Poppins", sans-serif;
+  line-height: 1.5;
+  color: #333;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: capitalize;
+  letter-spacing: 3px;
+  text-shadow: 2px 2px 2px burlywood, 4px 4px 4px cadetblue;
+}
+
+.header__nav,
+.section h2,
+.section .accent {
+  font-weight: 600;
+}
+
+.header__nav ul li a {
+  color: rgba(0, 0, 255, 0.561);
+  text-decoration: overline;
+  text-decoration-color: blueviolet;
+  text-decoration-thickness: 2px;
+}
+
+.section h2 {
+  line-height: 2;
+  color: darkred;
+  text-transform: uppercase;
+  text-align: right;
+  word-spacing: 8px;
+  text-decoration: underline;
+  text-decoration-style: wavy;
+}
+
+.section .strike {
+  text-decoration: line-through;
+  text-decoration-color: green;
+  text-decoration-thickness: 2px;
+  text-shadow: 0px 4px 4px rgba(255, 255, 0, 0.5);
+}
+
+.section .accent {
+  font-size: small;
+  color: blueviolet;
+  text-transform: uppercase;
+  text-decoration-color: green;
+  text-decoration: underline;
+  text-decoration-style: dashed;
+}
+
+.footer {
+  font-style: italic;
+  text-align: center;
+  color: chocolate;
+}
