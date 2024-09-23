@@ -1,6 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Poppins:wght@400&display=swap");
-@import url("https://fonts.googleapis.com/css?family=Poppins:wght@600&display=swap");
-@import url("https://fonts.googleapis.com/css?family=Poppins:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
 
 @import url(font.css);
 
@@ -18,7 +16,7 @@ h1 {
   text-align: center;
   text-transform: capitalize;
   letter-spacing: 3px;
-  text-shadow: 2px 2px 2px burlywood, 4px 4px 4px cadetblue;
+  text-shadow: 2px 2px 2px #deb887, 4px 4px 4px #5f9ea0;
 }
 
 .header__nav,
@@ -28,15 +26,15 @@ h1 {
 }
 
 .header__nav ul li a {
-  color: rgba(0, 0, 255, 0.561);
+  color: #0000ff8f;
   text-decoration: overline;
-  text-decoration-color: blueviolet;
+  text-decoration-color: #8a2be2;
   text-decoration-thickness: 2px;
 }
 
 .section h2 {
   line-height: 2;
-  color: darkred;
+  color: #8b0000;
   text-transform: uppercase;
   text-align: right;
   word-spacing: 8px;
@@ -46,16 +44,16 @@ h1 {
 
 .section .strike {
   text-decoration: line-through;
-  text-decoration-color: green;
+  text-decoration-color: #008000;
   text-decoration-thickness: 2px;
-  text-shadow: 0px 4px 4px rgba(255, 255, 0, 0.5);
+  text-shadow: 0px 4px 4px #ffff0080;
 }
 
 .section .accent {
   font-size: small;
-  color: blueviolet;
+  color: #8a2be2;
   text-transform: uppercase;
-  text-decoration-color: green;
+  text-decoration-color: #008000;
   text-decoration: underline;
   text-decoration-style: dashed;
 }
@@ -63,5 +61,5 @@ h1 {
 .footer {
   font-style: italic;
   text-align: center;
-  color: chocolate;
+  color: #d2691e;
 }
