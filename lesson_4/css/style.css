@@ -1,17 +1,20 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+/* DM Sans Font */
+@import url("https://fonts.googleapis.com/css?family=DM+Sans:wght@400,700&display=swap");
 
+/* Work Sans Font */
 @import url(font.css);
 
 @import url(reset.css);
 
 body {
-  font-family: "Poppins", sans-serif;
+  /* HTML підключення */
+  font-family: "Roboto", sans-serif;
   line-height: 1.5;
   color: #333;
 }
 
 h1 {
-  font-size: 24px;
+  font-size: 28px;
   font-weight: 700;
   text-align: center;
   text-transform: capitalize;
@@ -25,21 +28,25 @@ h1 {
   font-weight: 600;
 }
 
-.header__nav ul li a {
+.header__nav {
+  text-align: right;
   color: #0000ff8f;
-  text-decoration: overline;
-  text-decoration-color: #8a2be2;
-  text-decoration-thickness: 2px;
+}
+
+.header__nav ul li a {
+  font-size: 20px;
+  text-decoration: underline;
+  text-decoration-style: wavy;
 }
 
 .section h2 {
   line-height: 2;
   color: #8b0000;
   text-transform: uppercase;
-  text-align: right;
   word-spacing: 8px;
-  text-decoration: underline;
-  text-decoration-style: wavy;
+  text-decoration: overline;
+  text-decoration-color: #8a2be2;
+  text-decoration-thickness: 2px;
 }
 
 .section .strike {
