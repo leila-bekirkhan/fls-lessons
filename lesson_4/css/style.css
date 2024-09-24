@@ -86,3 +86,20 @@ h1 {
   line-height: 1.32;
   color: #132238;
 }
+
+/* Landing Page Section */
+.landing {
+  /* HTML підключення */
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  line-height: 1.66;
+  color: #505F98;
+}
+
+.landing h2 {
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 1.32;
+  letter-spacing: 1px;
+  color: #091133;
+}
