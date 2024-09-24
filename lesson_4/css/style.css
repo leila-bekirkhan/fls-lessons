@@ -85,6 +85,7 @@ h1 {
   font-weight: 600;
   line-height: 1.32;
   color: #132238;
+  text-transform: capitalize;
 }
 
 /* Landing Page Section */
@@ -102,4 +103,20 @@ h1 {
   line-height: 1.32;
   letter-spacing: 1px;
   color: #091133;
+  text-transform: capitalize;
+}
+
+/* Business Presentation Section */
+.presentation {
+  font-family: "DM Sans";
+  font-size: 24px;
+  line-height: 1.75;
+  color: #474464;
+}
+
+.presentation h2 {
+  font-size: 88px;
+  font-weight: 700;
+  line-height: 1.08;
+  color: #1E1B39;
 }
