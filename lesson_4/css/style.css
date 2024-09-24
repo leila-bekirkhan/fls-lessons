@@ -70,3 +70,19 @@ h1 {
   text-align: center;
   color: #d2691e;
 }
+
+/* Personal Portfolio Section */
+.portfolio {
+  /* @font-face підключення */
+  font-family: "Work Sans", sans-serif;
+  font-size: 18px;
+  line-height: 1.33;
+  color: #556070;
+}
+
+.portfolio h2 {
+  font-size: 38px;
+  font-weight: 600;
+  line-height: 1.32;
+  color: #132238;
+}
