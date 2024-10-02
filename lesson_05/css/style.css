@@ -7,20 +7,80 @@
 @import url("reset.css");
 
 body {
-  /* HTML підключення */
-  font-family: "Roboto", sans-serif;
+  font-family: sans-serif;
   line-height: 1.5;
   color: #333;
+  background-color: #a7ccc284;
+}
+
+header {
+  padding: 20px 0;
+  margin-bottom: 30px;
 }
 
 h1 {
-  font-size: 28px;
+  font-size: 36px;
   font-weight: 700;
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 3px;
   text-shadow: 2px 2px 2px #deb887, 4px 4px 4px #5f9ea0;
 }
+
+.section-1__wrapper {
+  background-color: #fff;
+  margin-bottom: 40px;
+  padding-block: 40px;
+}
+
+.section-1 {
+  font-family: "Roboto", sans-serif;
+  max-width: 539px;
+  margin: 0 auto;
+}
+
+.section-1__title {
+  font-size: 50px;
+  font-weight: 500;
+  text-transform: capitalize;
+  line-height: 1.32;
+  letter-spacing: 1px;
+  color: #091133;
+  margin-bottom: 20px;
+}
+
+.section-1__text {
+  font-size: 18px;
+  line-height: 1.66;
+  color: #505F98;
+  margin-bottom: 69px;
+}
+
+.btn {
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.62;
+  text-align: center;
+  border-radius: 2px;
+  padding: 5px 10px;
+  min-width: 189px;
+  cursor: pointer;
+  border: 2px solid transparent;
+}
+
+.btn.full {
+  color: #fff;
+  background-color: #111B47;
+  margin-right: 30px;
+}
+
+.btn.empty {
+  color: #091133;
+  background-color: inherit;
+  border-color: #091133;
+}
+
 
 .footer {
   text-align: center;
