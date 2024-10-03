@@ -1,9 +1,8 @@
-/* DM Sans Font */
-@import url("https://fonts.googleapis.com/css?family=DM+Sans:wght@400,700&display=swap");
+/* Fonts */
+@import url("https://fonts.googleapis.com/css?family=Roboto:wght@400,500,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Manrope:wght@400,700&display=swap");
 
-/* Work Sans Font */
-@import url("font.css");
-
+/* Reset */
 @import url("reset.css");
 
 body {
@@ -110,13 +109,15 @@ h1 {
 .info-cards {
   margin-left: -15px;
   margin-right: -15px;
+  font-size: 0;
 }
 
 .info-card__wrapper {
   display: inline-block;
-  max-width: 270px;
+  max-width: 50%;
   padding-left: 15px;
   padding-right: 15px;
+  vertical-align: top;
 }
 
 .info-card {
@@ -124,8 +125,7 @@ h1 {
 }
 
 .info-card__icon {
-  width: 36px;
-  height: 36px;
+  max-width: 36px;
   margin-bottom: 14px;
 }
 
@@ -143,6 +143,32 @@ h1 {
   color: #5D6970;
 }
 
+/* Section 3 */
+.section-3__wrapper {
+  background-color: #141414;
+  padding: 40px;
+  margin-bottom: 30px;
+}
+
+.section-3 {
+  max-width: 1597px;
+  font-family: "Manrope", sans-serif;
+}
+
+.section-3__title {
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 1.5;
+  color: #fff;
+  margin-bottom: 14px;
+}
+
+.section-3__text {
+  font-size: 18px;
+  line-height: 1.5;
+  color: #999;
+  margin-bottom: 80px;
+}
 
 
 .footer {
