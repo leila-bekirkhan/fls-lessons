@@ -1,12 +1,12 @@
 /* Fonts */
-@import url("https://fonts.googleapis.com/css?family=Roboto:wght@400,500,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Epilogue:400,800&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Manrope:wght@400,700&display=swap");
 
 /* Reset */
 @import url("reset.css");
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Epilogue", sans-serif;
   line-height: 1.5;
   color: #333;
   background-color: #a7ccc284;
@@ -27,12 +27,64 @@ h1 {
 }
 
 .section-label {
+  display: inline-block;
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 3px;
   text-transform: uppercase;
+  color: #EF6D58;
+  margin-bottom: 20px;
 }
 
-/* .section-1__container {
+.section-1 {
+  background-color: #FDF0E9;
+  margin-bottom: 50px;
+}
 
-} */
+.section-1__container {
+  max-width: 1210px;
+  padding-inline: 20px;
+  margin: 0 auto;
+  font-size: 0;
+}
+
+.section-1__content {
+  display: inline-block;
+  padding-top: 77px;
+  color: #391400;
+}
+
+.section-1__title {
+  font-size: 56px;
+  font-weight: 800;
+  line-height: 1.14;
+  letter-spacing: -1px;
+  margin-bottom: 26px;
+}
+
+.section-1__text {
+  font-size: 20px;
+  line-height: 1.6;
+  margin-bottom: 26px;
+}
+
+.section-1__list {
+  color: #391400a3;
+  font-size: 16px;
+  line-height: 2;
+}
+
+.section-1__list__item {
+  background: url("../img/check.svg") 0 0 / 32px no-repeat;
+  padding-left: 48px;
+  margin-bottom: 16px;
+  min-height: 32px;
+}
+
+.section-1__img {
+  display: inline-block;
+  max-width: 529px;
+}
 
 
 .footer {
