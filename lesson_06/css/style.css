@@ -1,0 +1,42 @@
+/* Fonts */
+@import url("https://fonts.googleapis.com/css?family=Roboto:wght@400,500,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Manrope:wght@400,700&display=swap");
+
+/* Reset */
+@import url("reset.css");
+
+body {
+  font-family: "Roboto", sans-serif;
+  line-height: 1.5;
+  color: #333;
+  background-color: #a7ccc284;
+}
+
+header {
+  padding-block: 30px;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-shadow: 2px 2px 2px #deb887, 4px 4px 4px #5f9ea0;
+}
+
+.section-label {
+  text-transform: uppercase;
+}
+
+/* .section-1__container {
+
+} */
+
+
+.footer {
+  text-align: center;
+  letter-spacing: 3px;
+  text-shadow: 2px 2px 2px #deb887, 4px 4px 4px #5f9ea0;
+}
