@@ -48,10 +48,12 @@ h1 {
   font-size: 0;
 }
 
-.section-1__content {
+.section-1__part-1 {
   display: inline-block;
-  padding-top: 77px;
   color: #391400;
+  max-width: 50%;
+  padding-top: 77px;
+  padding-right: 115px;
 }
 
 .section-1__title {
@@ -81,11 +83,17 @@ h1 {
   min-height: 32px;
 }
 
-.section-1__img {
+.section-1__part-2 {
   display: inline-block;
-  max-width: 529px;
+  max-width: 50%;
+  vertical-align: top;
+  padding-left: 56px;
 }
 
+.section-1__img {
+  max-width: 529px;
+}
+w
 
 .footer {
   text-align: center;
